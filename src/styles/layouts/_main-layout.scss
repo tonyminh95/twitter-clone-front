@@ -1,0 +1,23 @@
+.main-layout {
+    width: 70%;
+    margin: 0 auto;
+
+    [class^='main-layout__'] {
+        float: left;
+    }
+
+    &__left-side {
+        width: 20%;
+        background-color: red;
+    }
+
+    &__main {
+        width: 50%;
+        background-color: blue;
+    }
+
+    &__right-side {
+        width: 30%;
+        background-color: green;
+    }
+}

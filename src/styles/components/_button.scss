@@ -1,0 +1,10 @@
+.btn {
+    padding: $default-dimension;
+    border-radius: 100px;
+    text-align: center;
+
+    &-primary {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+}

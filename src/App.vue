@@ -1,21 +1,30 @@
 <template>
     <div id="app">
-        <div class="app__left-side"></div>
-        <div class="app__main">
-            <home-page></home-page>
+        <div class="main-layout">
+            <div class="main-layout__left-side">
+                <the-left-sidebar></the-left-sidebar>
+            </div>
+            <div class="main-layout__main">
+                <!-- <home-page v-if="false"></home-page> -->
+                Bui Dang Minh
+            </div>
+            <div class="main-layout__right-side">
+                Bui Dang Minh
+            </div>
         </div>
-        <div class="app__right-side"></div>
     </div>
 </template>
 
 <script>
-    import HomePage from './pages/HomePage'
+    import TheLeftSidebar from './components/layouts/TheLeftSidebar'
+    // import HomePage from './pages/HomePage'
 
     export default {
         name: 'App',
 
         components: {
-            HomePage
+            TheLeftSidebar
+            // HomePage
         }
     }
 </script>
