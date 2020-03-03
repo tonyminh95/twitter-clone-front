@@ -1,16 +1,21 @@
-// .left-sidebar
-// left-sidebar__logo-box
-//     left-sidebar__logo-btn
-//         left-sidebar__logo
-// left-sidebar__item-box
-//     <ul>
-//         <li>Home page</li>
-//         <li>Discover</li>
-//         <li>Notification</li>
-//         <li>Message</li>
-//         <li>Bookmarks</li>
-//         <li>Lists</li>
-//         <li>file</li>
-//         <li>More</li>
-//     </ul>
-// left-sidebar__tweet-box
+.left-sidebar {
+    &__logo-box {
+        padding: $default-dimension;
+    }
+
+    &__logo-btn {
+
+    }
+
+    &__logo {
+
+    }
+
+    &__item-box {
+
+    }
+
+    &__tweet-box {
+
+    }
+}

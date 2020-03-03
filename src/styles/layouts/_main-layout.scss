@@ -1,5 +1,5 @@
 .main-layout {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 
     [class^='main-layout__'] {
@@ -8,7 +8,6 @@
 
     &__left-side {
         width: 20%;
-        background-color: red;
     }
 
     &__main {

@@ -2,7 +2,7 @@
     <div class="left-sidebar">
         <div class="left-sidebar__logo-box">
             <a href="javascript:void(0)" class="left-sidebar__logo-btn">
-                <img src="" alt="Logo" class="left-sidebar__logo">
+                <font-awesome-icon :icon="['fb', 'twitter']" class="left-sidebar__logo"></font-awesome-icon>
             </a>
         </div>
         <div class="left-sidebar__item-box">
