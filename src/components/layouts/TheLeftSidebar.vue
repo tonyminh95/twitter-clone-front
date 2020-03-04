@@ -3,16 +3,14 @@
         <a href="javascript:void(0)">
             <font-awesome-icon :icon="['fab', 'twitter']" size="2x" class="left-sidebar__logo"></font-awesome-icon>
         </a>
-        <div class="left-sidebar__item-box">
-            <ul style="list-style-type: none; padding: 0;">
-                <li v-for="(item, index) in items" :key="index">
-                    <div style="padding: 10px">
-                        <font-awesome-icon :icon="[item.iconType, item.iconName]" size="2x"></font-awesome-icon>
-                        <span style="font-size: 25px; margin-left: 20px;">{{ item.title }}</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <ul class="left-sidebar__list">
+            <li v-for="(item, index) in items" :key="index">
+                <div class="left-sidebar__list-item">
+                    <font-awesome-icon :icon="[item.iconType, item.iconName]" size="2x"></font-awesome-icon>
+                    <span style="font-size: 25px; margin-left: 20px;">{{ item.title }}</span>
+                </div>
+            </li>
+        </ul>
         <div class="left-sidebar__tweet-box">
             <a href="javascript:void(0)" class="btn btn-primary">Tweet</a>
         </div>
