@@ -1,12 +1,6 @@
 .left-sidebar {
     &__logo {
-        color: $color-primary;
-        padding: $default-dimension;
-
-        &:hover {
-            background-color: lighten($color: $color-primary, $amount: 15);
-            border-radius: 100px;
-        }
+        margin: 1rem 0 2rem 0;
     }
 
     &__list {
@@ -14,16 +8,11 @@
         padding: 0;
 
         &-item {
-            padding: $default-dimension;
-        }
-
-        &-item:hover {
-            background-color: lighten($color: $color-primary, $amount: 15);
-            border-radius: 100px;
+            margin-bottom: 2rem;
         }
     }
 
     &__tweet-box {
-
+        margin-top: $large-dimension;
     }
 }

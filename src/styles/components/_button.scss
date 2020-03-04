@@ -1,10 +1,34 @@
 .btn {
-    padding: $default-dimension;
+    padding: $default-dimension 0;
     border-radius: 100px;
-    text-align: center;
+    text-decoration: none;
+    color: $color-black;
+
+    &-icon {
+        width: 25px !important;
+        height: 25px;
+        display:inline-block;
+        vertical-align:middle;
+    }
+
+    &-title {
+        font-size: 1.3rem;
+        display:inline-block;
+        vertical-align:middle;
+        margin-left: 1.5rem;
+    }
+
+    &-outline-primary:hover {
+        padding: $default-dimension;
+        background-color: lighten($color: $color-primary, $amount: 15);
+        margin-left: -$default-dimension;
+        cursor: pointer;
+        color: darken($color: $color-primary, $amount: 15)
+    }
 
     &-primary {
-        background-color: $color-primary;
+        background-color: darken($color: $color-primary, $amount: 15);
         color: $color-white;
+        padding: $default-dimension $xlarge-dimension;
     }
 }

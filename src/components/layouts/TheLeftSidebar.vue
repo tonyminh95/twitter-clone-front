@@ -1,13 +1,17 @@
 <template>
     <div class="left-sidebar">
-        <a href="javascript:void(0)">
-            <font-awesome-icon :icon="['fab', 'twitter']" size="2x" class="left-sidebar__logo"></font-awesome-icon>
-        </a>
+        <div class="left-sidebar__logo">
+            <a href="javascript:void(0)" class="btn btn-outline-primary">
+                <font-awesome-icon :icon="['fab', 'twitter']" class="btn-icon text-primary-darken"></font-awesome-icon>
+            </a>
+        </div>
         <ul class="left-sidebar__list">
             <li v-for="(item, index) in items" :key="index">
                 <div class="left-sidebar__list-item">
-                    <font-awesome-icon :icon="[item.iconType, item.iconName]" size="2x"></font-awesome-icon>
-                    <span style="font-size: 25px; margin-left: 20px;">{{ item.title }}</span>
+                    <a href="javascript:void(0)" class="btn btn-outline-primary">
+                        <font-awesome-icon :icon="[item.iconType, item.iconName]" class="btn-icon"></font-awesome-icon>
+                        <span class="btn-title">{{ item.title }}</span>
+                    </a>
                 </div>
             </li>
         </ul>
