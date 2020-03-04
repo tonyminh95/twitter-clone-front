@@ -8,9 +8,6 @@
                 <!-- <home-page v-if="false"></home-page> -->
                 Bui Dang Minh
             </div>
-            <div class="main-layout__right-side">
-                Bui Dang Minh
-            </div>
         </div>
     </div>
 </template>
