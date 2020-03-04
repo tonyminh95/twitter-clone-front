@@ -1,18 +1,19 @@
 .left-sidebar {
-    &__logo-box {
-        padding: $default-dimension;
-    }
-
-    &__logo-btn {
-
-    }
-
     &__logo {
+        color: $color-primary;
+        padding: 10px;
 
+        &:hover {
+            background-color: lighten($color: $color-primary, $amount: 15);
+            border-radius: 100px;
+        }
     }
 
-    &__item-box {
-
+    &__item-box ul li {
+        :hover {
+            background-color: lighten($color: $color-primary, $amount: 15);
+            border-radius: 100px;
+        }
     }
 
     &__tweet-box {
